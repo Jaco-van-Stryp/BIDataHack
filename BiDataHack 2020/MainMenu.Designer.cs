@@ -36,32 +36,35 @@
             // 
             // btn_ListExistingProfiles
             // 
+            this.btn_ListExistingProfiles.BackColor = System.Drawing.Color.LightSlateGray;
             this.btn_ListExistingProfiles.Location = new System.Drawing.Point(123, 149);
             this.btn_ListExistingProfiles.Name = "btn_ListExistingProfiles";
             this.btn_ListExistingProfiles.Size = new System.Drawing.Size(279, 65);
             this.btn_ListExistingProfiles.TabIndex = 0;
             this.btn_ListExistingProfiles.Text = "List Existing Voting Systems";
-            this.btn_ListExistingProfiles.UseVisualStyleBackColor = true;
+            this.btn_ListExistingProfiles.UseVisualStyleBackColor = false;
             this.btn_ListExistingProfiles.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.LightSlateGray;
             this.button2.Location = new System.Drawing.Point(123, 236);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(279, 65);
             this.button2.TabIndex = 1;
             this.button2.Text = "Create New Voting System";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.LightSlateGray;
             this.button3.Location = new System.Drawing.Point(123, 331);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(279, 65);
             this.button3.TabIndex = 2;
             this.button3.Text = "Remove Voting System";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label1

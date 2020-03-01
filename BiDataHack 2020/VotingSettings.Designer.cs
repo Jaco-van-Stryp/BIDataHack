@@ -57,6 +57,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.Enabled = false;
             this.textBox2.Location = new System.Drawing.Point(300, 181);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(312, 20);
@@ -64,11 +65,11 @@
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(300, 142);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(312, 20);
             this.textBox1.TabIndex = 10;
-            this.textBox1.Text = "Input Example";
             // 
             // textBox3
             // 
@@ -120,6 +121,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Enabled = false;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(300, 217);
             this.comboBox1.Name = "comboBox1";
@@ -144,6 +146,7 @@
             // 
             // textBox7
             // 
+            this.textBox7.Enabled = false;
             this.textBox7.Location = new System.Drawing.Point(300, 254);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(312, 20);
@@ -151,28 +154,31 @@
             // 
             // btn_BackVotingSettings
             // 
+            this.btn_BackVotingSettings.BackColor = System.Drawing.Color.LightSlateGray;
             this.btn_BackVotingSettings.Location = new System.Drawing.Point(251, 310);
             this.btn_BackVotingSettings.Name = "btn_BackVotingSettings";
             this.btn_BackVotingSettings.Size = new System.Drawing.Size(75, 23);
             this.btn_BackVotingSettings.TabIndex = 25;
             this.btn_BackVotingSettings.Text = "Back";
-            this.btn_BackVotingSettings.UseVisualStyleBackColor = true;
+            this.btn_BackVotingSettings.UseVisualStyleBackColor = false;
             this.btn_BackVotingSettings.Click += new System.EventHandler(this.btn_BackVotingSettings_Click);
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.LightSlateGray;
             this.button1.Location = new System.Drawing.Point(510, 310);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 26;
             this.button1.Text = "Next";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // VotingSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(710, 381);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_BackVotingSettings);
