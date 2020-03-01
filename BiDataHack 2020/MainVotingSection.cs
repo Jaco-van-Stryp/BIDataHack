@@ -13,18 +13,26 @@ namespace BiDataHack_2020
 {
     public partial class MainVotingSection : Form
     {
-        public String publicText;
+        public string publicText;
 
         mainBackend mb = new mainBackend();
-        public List<String> nominees()
+      
+        public MainVotingSection()
+        {
+            InitializeComponent();
+            loadButtons();
+        }
+
+        public void loadButtons()
         {
             String localLocation = Directory.GetCurrentDirectory() + "//VotingSettings";
             string[] files = Directory.GetDirectories(localLocation);
-            List<string> final = new List<string>();
+            publicText = File.ReadAllText(Directory.GetCurrentDirectory() + "\\temp.db");
+            List<string> buttonsToLoad = new List<string>();
 
             for (int i = 0; i < files.Length; i++)
             {
-                string readText = System.IO.File.ReadAllText(files[i]);
+                string readText = System.IO.File.ReadAllText(files[i] + "//reg.db");
 
                 String[] data = mb.Decrypt(readText).Split('♥');
                 String[] pbt = mb.Decrypt(publicText).Split('♥');
@@ -37,22 +45,12 @@ namespace BiDataHack_2020
                 //5 - Gender
                 if (data[2].ToLower().Equals(pbt[2].ToLower()))
                 {
-                     final.Add(mb.Decrypt(readText)); //could potentially add gender based conditioning here
+                    buttonsToLoad.Add(mb.Decrypt(readText)); //could potentially add gender based conditioning here
                 }
             }
-            return final;
-        }
-        public MainVotingSection()
-        {
-            InitializeComponent();
-            loadButtons();
-        }
 
-        public void loadButtons()
-        {
-            List<string> buttonsToLoad = new List<string>();
-            buttonsToLoad = nominees();
-            int totalToLoad = buttonsToLoad.Count();
+            
+            int totalToLoad = buttonsToLoad.Count;
             int val = 0;
 
             if(val <= totalToLoad)
@@ -335,9 +333,6 @@ namespace BiDataHack_2020
 
         }
 
-        internal void carryOver(string txt)
-        {
-            publicText = txt;
-        }
+       
     }
 }

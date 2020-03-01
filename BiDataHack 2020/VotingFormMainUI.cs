@@ -43,6 +43,7 @@ namespace BiDataHack_2020
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             mainBackend mb = new mainBackend();
 
             String localLocation = Directory.GetCurrentDirectory() + "//Registrations";
@@ -65,14 +66,20 @@ namespace BiDataHack_2020
                 if(found == true)
                 {
                     string text = System.IO.File.ReadAllText(localLocation);
-                    MainVotingSection mvs = new MainVotingSection();
                     string[] datafile = mb.Decrypt(text).Split('♥');
+
                     if(datafile[4].Equals("Vote") || datafile[4].Equals("Both"))
                     {
                         if(datafile[3].Equals(idVal.Text.ToString().Trim()))
                         {
-                    mvs.Show();
-                            mvs.carryOver(text);
+                            using (StreamWriter writetext = new StreamWriter("temp.db"))
+                            {
+                                writetext.WriteLine(text);
+                            }
+
+                            MainVotingSection mvs = new MainVotingSection();
+
+                            mvs.Show();
                     this.Hide();
                         } else
                         {
