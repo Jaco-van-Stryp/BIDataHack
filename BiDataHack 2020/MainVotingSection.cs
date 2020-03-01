@@ -24,7 +24,8 @@ namespace BiDataHack_2020
 
             for (int i = 0; i < files.Length; i++)
             {
-                string readText = File.ReadAllText(files[i]);
+                string readText = System.IO.File.ReadAllText(files[i]);
+
                 String[] data = mb.Decrypt(readText).Split('♥');
                 String[] pbt = mb.Decrypt(publicText).Split('♥');
 
