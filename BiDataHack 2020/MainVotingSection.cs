@@ -328,11 +328,420 @@ namespace BiDataHack_2020
 
 
         }
+        bool btn1 = false;
         private void button1_Click(object sender, EventArgs e)
         {
+            if(btn1 == false)
+            {
+                btn1 = true;
+                button1.BackColor = Color.Green;
+            }
+            else if (btn1 == true)
+            {
+                btn1 = false;
+                button1.BackColor = Color.Red;
 
+            }
         }
 
-       
+        bool btn2 = false;
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (btn2 == false)
+            {
+                btn2 = true;
+                button2.BackColor = Color.Green;
+            }
+            else if (btn2 == true)
+            {
+                btn2 = false;
+                button2.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn3 = false;
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (btn3 == false)
+            {
+                btn3 = true;
+                button3.BackColor = Color.Green;
+            }
+            else if (btn3 == true)
+            {
+                btn3 = false;
+                button3.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn4 = false;
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (btn4 == false)
+            {
+                btn4 = true;
+                button4.BackColor = Color.Green;
+            }
+            else if (btn4 == true)
+            {
+                btn4 = false;
+                button4.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn5 = false;
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (btn5 == false)
+            {
+                btn5 = true;
+                button5.BackColor = Color.Green;
+            }
+            else if (btn5 == true)
+            {
+                btn5 = false;
+                button5.BackColor = Color.Red;
+
+            }
+        }
+
+
+
+        bool btn6 = false;
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (btn6 == false)
+            {
+                btn6 = true;
+                button6.BackColor = Color.Green;
+            }
+            else if (btn6 == true)
+            {
+                btn6 = false;
+                button6.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn7 = false;
+        private void button7_Click(object sender, EventArgs e)
+        {
+            if (btn7 == false)
+            {
+                btn7 = true;
+                button7.BackColor = Color.Green;
+            }
+            else if (btn7 == true)
+            {
+                btn7 = false;
+                button7.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn8 = false;
+        private void button8_Click(object sender, EventArgs e)
+        {
+            if (btn8 == false)
+            {
+                btn8 = true;
+                button8.BackColor = Color.Green;
+            }
+            else if (btn8 == true)
+            {
+                btn8 = false;
+                button8.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn9 = false;
+        private void button9_Click(object sender, EventArgs e)
+        {
+            if (btn9 == false)
+            {
+                btn9 = true;
+                button9.BackColor = Color.Green;
+            }
+            else if (btn9 == true)
+            {
+                btn9 = false;
+                button9.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn10 = false;
+        private void button10_Click(object sender, EventArgs e)
+        {
+            if (btn10 == false)
+            {
+                btn10 = true;
+                button10.BackColor = Color.Green;
+            }
+            else if (btn10 == true)
+            {
+                btn10 = false;
+                button10.BackColor = Color.Red;
+
+            }
+        }
+
+
+        bool btn11 = false;
+        private void button11_Click(object sender, EventArgs e)
+        {
+            if (btn11 == false)
+            {
+                btn11 = true;
+                button11.BackColor = Color.Green;
+            }
+            else if (btn11 == true)
+            {
+                btn11 = false;
+                button11.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn12 = false;
+        private void button12_Click(object sender, EventArgs e)
+        {
+            if (btn12 == false)
+            {
+                btn12 = true;
+                button12.BackColor = Color.Green;
+            }
+            else if (btn12 == true)
+            {
+                btn12 = false;
+                button12.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn13 = false;
+        private void button13_Click(object sender, EventArgs e)
+        {
+            if (btn13 == false)
+            {
+                btn13 = true;
+                button13.BackColor = Color.Green;
+            }
+            else if (btn13 == true)
+            {
+                btn13 = false;
+                button13.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn14 = false;
+        private void button14_Click(object sender, EventArgs e)
+        {
+            if (btn14 == false)
+            {
+                btn14 = true;
+                button14.BackColor = Color.Green;
+            }
+            else if (btn14 == true)
+            {
+                btn14 = false;
+                button14.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn15 = false;
+        private void button15_Click(object sender, EventArgs e)
+        {
+            if (btn15 == false)
+            {
+                btn15 = true;
+                button15.BackColor = Color.Green;
+            }
+            else if (btn15 == true)
+            {
+                btn15 = false;
+                button15.BackColor = Color.Red;
+
+            }
+        }
+
+
+
+        bool btn16 = false;
+        private void button16_Click(object sender, EventArgs e)
+        {
+            if (btn16 == false)
+            {
+                btn16 = true;
+                button16.BackColor = Color.Green;
+            }
+            else if (btn16 == true)
+            {
+                btn16 = false;
+                button16.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn17 = false;
+        private void button17_Click(object sender, EventArgs e)
+        {
+            if (btn17 == false)
+            {
+                btn17 = true;
+                button17.BackColor = Color.Green;
+            }
+            else if (btn17 == true)
+            {
+                btn17 = false;
+                button17.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn18 = false;
+        private void button18_Click(object sender, EventArgs e)
+        {
+            if (btn18 == false)
+            {
+                btn18 = true;
+                button18.BackColor = Color.Green;
+            }
+            else if (btn18 == true)
+            {
+                btn18 = false;
+                button18.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn19 = false;
+        private void button19_Click(object sender, EventArgs e)
+        {
+            if (btn19 == false)
+            {
+                btn19 = true;
+                button19.BackColor = Color.Green;
+            }
+            else if (btn19 == true)
+            {
+                btn19 = false;
+                button19.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn20 = false;
+        private void button20_Click(object sender, EventArgs e)
+        {
+            if (btn20 == false)
+            {
+                btn20 = true;
+                button20.BackColor = Color.Green;
+            }
+            else if (btn20 == true)
+            {
+                btn20 = false;
+                button20.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn21 = false;
+        private void button21_Click(object sender, EventArgs e)
+        {
+            if (btn21 == false)
+            {
+                btn21 = true;
+                button21.BackColor = Color.Green;
+            }
+            else if (btn21 == true)
+            {
+                btn21 = false;
+                button21.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn22 = false;
+        private void button22_Click(object sender, EventArgs e)
+        {
+            if (btn22 == false)
+            {
+                btn22 = true;
+                button22.BackColor = Color.Green;
+            }
+            else if (btn22 == true)
+            {
+                btn22 = false;
+                button22.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn23 = false;
+        private void button23_Click(object sender, EventArgs e)
+        {
+            if (btn23 == false)
+            {
+                btn23 = true;
+                button23.BackColor = Color.Green;
+            }
+            else if (btn23 == true)
+            {
+                btn23 = false;
+                button23.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn24 = false;
+        private void button24_Click(object sender, EventArgs e)
+        {
+            if (btn24 == false)
+            {
+                btn24 = true;
+                button24.BackColor = Color.Green;
+            }
+            else if (btn24 == true)
+            {
+                btn24 = false;
+                button24.BackColor = Color.Red;
+
+            }
+        }
+
+        bool btn25 = false;
+        private void button25_Click(object sender, EventArgs e)
+        {
+            if (btn25 == false)
+            {
+                btn25 = true;
+                button25.BackColor = Color.Green;
+            }
+            else if (btn25 == true)
+            {
+                btn25 = false;
+                button25.BackColor = Color.Red;
+
+            }
+        }
+
+
+
+        
+
+
+
+
     }
+
+
+
 }

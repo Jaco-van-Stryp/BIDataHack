@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataHeading = new System.Windows.Forms.Label();
+            this.d = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -59,15 +59,15 @@
             this.txtBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // dataHeading
+            // d
             // 
-            this.dataHeading.AutoSize = true;
-            this.dataHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.25F);
-            this.dataHeading.Location = new System.Drawing.Point(324, 9);
-            this.dataHeading.Name = "dataHeading";
-            this.dataHeading.Size = new System.Drawing.Size(211, 39);
-            this.dataHeading.TabIndex = 0;
-            this.dataHeading.Text = "dataHeading";
+            this.d.AutoSize = true;
+            this.d.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.25F);
+            this.d.Location = new System.Drawing.Point(324, 9);
+            this.d.Name = "d";
+            this.d.Size = new System.Drawing.Size(211, 39);
+            this.d.TabIndex = 0;
+            this.d.Text = "dataHeading";
             // 
             // button1
             // 
@@ -346,7 +346,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataHeading);
+            this.Controls.Add(this.d);
             this.Name = "MainVotingSection";
             this.Text = "MainVotingSection";
             this.ResumeLayout(false);
@@ -356,7 +356,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label dataHeading;
+        private System.Windows.Forms.Label d;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
