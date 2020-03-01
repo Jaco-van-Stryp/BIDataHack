@@ -64,28 +64,31 @@
             // 
             // btn_VotingSettings
             // 
+            this.btn_VotingSettings.BackColor = System.Drawing.Color.LightSlateGray;
             this.btn_VotingSettings.Location = new System.Drawing.Point(426, 180);
             this.btn_VotingSettings.Name = "btn_VotingSettings";
             this.btn_VotingSettings.Size = new System.Drawing.Size(82, 23);
             this.btn_VotingSettings.TabIndex = 3;
             this.btn_VotingSettings.Text = "Next";
-            this.btn_VotingSettings.UseVisualStyleBackColor = true;
+            this.btn_VotingSettings.UseVisualStyleBackColor = false;
             this.btn_VotingSettings.Click += new System.EventHandler(this.btn_VotingSettings_Click);
             // 
             // btn_CreationBack
             // 
+            this.btn_CreationBack.BackColor = System.Drawing.Color.LightSlateGray;
             this.btn_CreationBack.Location = new System.Drawing.Point(90, 180);
             this.btn_CreationBack.Name = "btn_CreationBack";
             this.btn_CreationBack.Size = new System.Drawing.Size(75, 23);
             this.btn_CreationBack.TabIndex = 6;
             this.btn_CreationBack.Text = "Back";
-            this.btn_CreationBack.UseVisualStyleBackColor = true;
+            this.btn_CreationBack.UseVisualStyleBackColor = false;
             this.btn_CreationBack.Click += new System.EventHandler(this.btn_CreationBack_Click);
             // 
             // CreateCustomeSystem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(566, 232);
             this.Controls.Add(this.btn_CreationBack);
             this.Controls.Add(this.btn_VotingSettings);

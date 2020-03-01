@@ -53,6 +53,7 @@
             // 
             // comboBox3
             // 
+            this.comboBox3.Enabled = false;
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Location = new System.Drawing.Point(394, 296);
             this.comboBox3.Name = "comboBox3";
@@ -71,6 +72,7 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.Enabled = false;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(394, 179);
             this.comboBox2.Name = "comboBox2";
@@ -79,6 +81,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Enabled = false;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Vote",
@@ -111,6 +114,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.Enabled = false;
             this.textBox3.Location = new System.Drawing.Point(394, 215);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(288, 20);
@@ -138,6 +142,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(394, 139);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(288, 20);
@@ -145,22 +150,24 @@
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.LightSlateGray;
             this.button3.Location = new System.Drawing.Point(118, 358);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(170, 39);
             this.button3.TabIndex = 26;
             this.button3.Text = "Back";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.LightSlateGray;
             this.button1.Location = new System.Drawing.Point(503, 358);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(170, 39);
             this.button1.TabIndex = 24;
             this.button1.Text = "Submit";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
@@ -185,6 +192,7 @@
             // 
             // lblName
             // 
+            this.lblName.Enabled = false;
             this.lblName.Location = new System.Drawing.Point(394, 99);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(288, 20);
@@ -236,6 +244,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txbGen);
             this.Controls.Add(this.txtEl);

@@ -21,7 +21,9 @@ namespace BiDataHack_2020
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            VotingResultscs cs = new VotingResultscs();
+            cs.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -50,6 +52,11 @@ namespace BiDataHack_2020
             String localLocation = Directory.GetCurrentDirectory();
             string createText = val;
             File.WriteAllText(localLocation + "//settingsFile.db", createText);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

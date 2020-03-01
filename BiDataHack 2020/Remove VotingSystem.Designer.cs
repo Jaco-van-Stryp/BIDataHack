@@ -64,27 +64,30 @@
             // 
             // btn_BackRemoveSystem
             // 
+            this.btn_BackRemoveSystem.BackColor = System.Drawing.Color.LightSlateGray;
             this.btn_BackRemoveSystem.Location = new System.Drawing.Point(255, 351);
             this.btn_BackRemoveSystem.Name = "btn_BackRemoveSystem";
             this.btn_BackRemoveSystem.Size = new System.Drawing.Size(75, 23);
             this.btn_BackRemoveSystem.TabIndex = 3;
             this.btn_BackRemoveSystem.Text = "Back";
-            this.btn_BackRemoveSystem.UseVisualStyleBackColor = true;
+            this.btn_BackRemoveSystem.UseVisualStyleBackColor = false;
             this.btn_BackRemoveSystem.Click += new System.EventHandler(this.btn_BackRemoveSystem_Click);
             // 
             // btn_RemoveSystem
             // 
+            this.btn_RemoveSystem.BackColor = System.Drawing.Color.LightSlateGray;
             this.btn_RemoveSystem.Location = new System.Drawing.Point(53, 351);
             this.btn_RemoveSystem.Name = "btn_RemoveSystem";
             this.btn_RemoveSystem.Size = new System.Drawing.Size(75, 23);
             this.btn_RemoveSystem.TabIndex = 4;
             this.btn_RemoveSystem.Text = "Remove";
-            this.btn_RemoveSystem.UseVisualStyleBackColor = true;
+            this.btn_RemoveSystem.UseVisualStyleBackColor = false;
             // 
             // Remove_VotingSystem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(403, 450);
             this.Controls.Add(this.btn_RemoveSystem);
             this.Controls.Add(this.btn_BackRemoveSystem);

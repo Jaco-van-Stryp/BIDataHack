@@ -64,22 +64,24 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.LightSlateGray;
             this.button1.Location = new System.Drawing.Point(399, 313);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(170, 39);
             this.button1.TabIndex = 3;
             this.button1.Text = "Register";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.LightSlateGray;
             this.button3.Location = new System.Drawing.Point(14, 313);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(170, 39);
             this.button3.TabIndex = 6;
             this.button3.Text = "Return To Menu";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // txbSurname
@@ -192,6 +194,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(588, 372);
             this.Controls.Add(this.GEN);
             this.Controls.Add(this.ELI);
