@@ -37,12 +37,12 @@
             this.txfEligible = new System.Windows.Forms.ComboBox();
             this.groupVal = new System.Windows.Forms.ComboBox();
             this.txfGender = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.GEN = new System.Windows.Forms.Label();
+            this.ELI = new System.Windows.Forms.Label();
+            this.IDE = new System.Windows.Forms.Label();
+            this.GV = new System.Windows.Forms.Label();
+            this.surN = new System.Windows.Forms.Label();
+            this.Nm = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblName
@@ -128,77 +128,77 @@
             this.txfGender.Size = new System.Drawing.Size(453, 21);
             this.txfGender.TabIndex = 20;
             // 
-            // label7
+            // GEN
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(26, 258);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(42, 13);
-            this.label7.TabIndex = 41;
-            this.label7.Text = "Gender";
+            this.GEN.AutoSize = true;
+            this.GEN.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GEN.Location = new System.Drawing.Point(26, 258);
+            this.GEN.Name = "GEN";
+            this.GEN.Size = new System.Drawing.Size(42, 13);
+            this.GEN.TabIndex = 41;
+            this.GEN.Text = "Gender";
             // 
-            // label6
+            // ELI
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(26, 212);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 13);
-            this.label6.TabIndex = 40;
-            this.label6.Text = "Eligibility";
+            this.ELI.AutoSize = true;
+            this.ELI.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ELI.Location = new System.Drawing.Point(26, 212);
+            this.ELI.Name = "ELI";
+            this.ELI.Size = new System.Drawing.Size(46, 13);
+            this.ELI.TabIndex = 40;
+            this.ELI.Text = "Eligibility";
             // 
-            // label5
+            // IDE
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(26, 177);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 13);
-            this.label5.TabIndex = 39;
-            this.label5.Text = "Identification";
+            this.IDE.AutoSize = true;
+            this.IDE.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IDE.Location = new System.Drawing.Point(26, 177);
+            this.IDE.Name = "IDE";
+            this.IDE.Size = new System.Drawing.Size(67, 13);
+            this.IDE.TabIndex = 39;
+            this.IDE.Text = "Identification";
             // 
-            // label4
+            // GV
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(26, 141);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 13);
-            this.label4.TabIndex = 38;
-            this.label4.Text = "Group value";
+            this.GV.AutoSize = true;
+            this.GV.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GV.Location = new System.Drawing.Point(26, 141);
+            this.GV.Name = "GV";
+            this.GV.Size = new System.Drawing.Size(65, 13);
+            this.GV.TabIndex = 38;
+            this.GV.Text = "Group value";
             // 
-            // label3
+            // surN
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(26, 101);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 13);
-            this.label3.TabIndex = 37;
-            this.label3.Text = "Surname";
+            this.surN.AutoSize = true;
+            this.surN.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.surN.Location = new System.Drawing.Point(26, 101);
+            this.surN.Name = "surN";
+            this.surN.Size = new System.Drawing.Size(49, 13);
+            this.surN.TabIndex = 37;
+            this.surN.Text = "Surname";
             // 
-            // label1
+            // Nm
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(26, 61);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 36;
-            this.label1.Text = "Name";
+            this.Nm.AutoSize = true;
+            this.Nm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nm.Location = new System.Drawing.Point(26, 61);
+            this.Nm.Name = "Nm";
+            this.Nm.Size = new System.Drawing.Size(35, 13);
+            this.Nm.TabIndex = 36;
+            this.Nm.Text = "Name";
             // 
             // NominateForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(588, 372);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.GEN);
+            this.Controls.Add(this.ELI);
+            this.Controls.Add(this.IDE);
+            this.Controls.Add(this.GV);
+            this.Controls.Add(this.surN);
+            this.Controls.Add(this.Nm);
             this.Controls.Add(this.txfGender);
             this.Controls.Add(this.groupVal);
             this.Controls.Add(this.txfEligible);
@@ -226,11 +226,11 @@
         private System.Windows.Forms.ComboBox txfEligible;
         private System.Windows.Forms.ComboBox groupVal;
         private System.Windows.Forms.ComboBox txfGender;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label GEN;
+        private System.Windows.Forms.Label ELI;
+        private System.Windows.Forms.Label IDE;
+        private System.Windows.Forms.Label GV;
+        private System.Windows.Forms.Label surN;
+        private System.Windows.Forms.Label Nm;
     }
 }

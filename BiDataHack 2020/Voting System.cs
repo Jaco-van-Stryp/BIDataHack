@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,7 @@ namespace BiDataHack_2020
         public Form1()
         {
             InitializeComponent();
+         
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -41,6 +43,13 @@ namespace BiDataHack_2020
             ListExistingVotingSystems cs = new ListExistingVotingSystems();
             cs.Show();
             this.Hide();
+        }
+
+        internal void sendSettingsFile(string val)
+        {
+            String localLocation = Directory.GetCurrentDirectory();
+            string createText = val;
+            File.WriteAllText(localLocation + "//settingsFile.db", createText);
         }
     }
 }

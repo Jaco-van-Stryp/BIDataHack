@@ -17,10 +17,11 @@ namespace BiDataHack_2020
         {
             InitializeComponent();
             String localLocation = Directory.GetCurrentDirectory() + "//VotingSettings";
-            var directories = Directory.GetDirectories(localLocation);
-            for (int i = 0; i < directories.Length; i++)
+
+            string[] files = Directory.GetDirectories(localLocation);
+            foreach (string file in files)
             {
-                mainList.Items.Add(directories[i]);
+                mainList.Items.Add(Path.GetFileName(file).ToString().Trim());
             }
 
         }
@@ -37,9 +38,10 @@ namespace BiDataHack_2020
 
         private void btn_Proceed_Click(object sender, EventArgs e)
         {
-
+            String val = mainList.SelectedItem.ToString();
             Form1 votingsys = new Form1();
             votingsys.Show();
+            votingsys.sendSettingsFile(val);
             this.Hide();
         }
 

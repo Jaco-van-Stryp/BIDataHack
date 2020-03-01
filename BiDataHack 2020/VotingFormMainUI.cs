@@ -13,9 +13,20 @@ namespace BiDataHack_2020
 {
     public partial class VotingFormMainUI : Form
     {
+        mainBackend mb = new mainBackend();
+
         public VotingFormMainUI()
         {
             InitializeComponent();
+            String localLocation = Directory.GetCurrentDirectory();
+            string readText = File.ReadAllText(localLocation + "\\settingsFile.db");
+            string readCode = File.ReadAllText(localLocation + "\\VotingSettings\\" + readText + "\\vote.db");
+
+            String[] values = mb.Decrypt(readCode).Split('♥');
+            label1.Text = values[0];
+            label2.Text = values[1];
+            label3.Text = values[2];
+            label5.Text = values[3];
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -61,6 +72,7 @@ namespace BiDataHack_2020
                         if(datafile[3].Equals(idVal.Text.ToString().Trim()))
                         {
                     mvs.Show();
+                            mvs.carryOver(text);
                     this.Hide();
                         } else
                         {

@@ -17,6 +17,18 @@ namespace BiDataHack_2020
         public NominateForm()
         {
             InitializeComponent();
+            String localLocation = Directory.GetCurrentDirectory();
+            string readText = File.ReadAllText(localLocation + "\\settingsFile.db");
+            string readCode = File.ReadAllText(localLocation + "\\VotingSettings\\" + readText + "\\reg.db");
+
+            String[] values = mb.Decrypt(readCode).Split('♥');
+            Nm.Text = values[0];
+            surN.Text = values[1];
+            GV.Text = values[2];
+            IDE.Text = values[3];
+            ELI.Text = values[4];
+            GEN.Text = values[5];
+
         }
 
         private void label1_Click(object sender, EventArgs e)

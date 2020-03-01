@@ -64,7 +64,7 @@ namespace BiDataHack_2020
             } else
             {
                 String seperation = "♥";
-                String collect = txtName.Text.ToString() + seperation + textBox3.Text.ToString() + seperation + txtSN.Text.ToString() + seperation + txtGV.Text.ToString() + seperation + txtID.Text.ToString() + seperation + txtEl.Text.ToString() + seperation + txbGen.Text.ToString();
+                String collect = txtName.Text.ToString() + seperation + txtSN.Text.ToString() + seperation + txtGV.Text.ToString() + seperation + txtID.Text.ToString() + seperation + txtEl.Text.ToString() + seperation + txbGen.Text.ToString();
                 string createText = mb.Encrypt(collect);
                 File.WriteAllText(localLocation + "//reg.db", createText);
                 this.Hide();
