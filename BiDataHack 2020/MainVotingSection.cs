@@ -57,7 +57,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[0].Split('♥');
-                button1.Text = s1[1] + s1[2];
+                button1.Text = s1[1] + " " + s1[2];
             } else
             {
                 button1.Visible = false;
@@ -67,7 +67,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[1].Split('♥');
-                button2.Text = s1[1] + s1[2];
+                button2.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -78,7 +78,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[2].Split('♥');
-                button3.Text = s1[1] + s1[2];
+                button3.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -89,7 +89,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[3].Split('♥');
-                button4.Text = s1[1] + s1[2];
+                button4.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -100,7 +100,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[4].Split('♥');
-                button5.Text = s1[1] + s1[2];
+                button5.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -111,7 +111,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[5].Split('♥');
-                button10.Text = s1[1] + s1[2];
+                button10.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -122,7 +122,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[6].Split('♥');
-                button9.Text = s1[1] + s1[2];
+                button9.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -133,7 +133,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[7].Split('♥');
-                button8.Text = s1[1] + s1[2];
+                button8.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -144,7 +144,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[8].Split('♥');
-                button7.Text = s1[1] + s1[2];
+                button7.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -155,7 +155,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[9].Split('♥');
-                button6.Text = s1[1] + s1[2];
+                button6.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -166,7 +166,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[10].Split('♥');
-                button15.Text = s1[1] + s1[2];
+                button15.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -177,7 +177,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[11].Split('♥');
-                button14.Text = s1[1] + s1[2];
+                button14.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -188,7 +188,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[12].Split('♥');
-                button13.Text = s1[1] + s1[2];
+                button13.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -199,7 +199,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[13].Split('♥');
-                button12.Text = s1[1] + s1[2];
+                button12.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -210,7 +210,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[14].Split('♥');
-                button11.Text = s1[1] + s1[2];
+                button11.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -221,7 +221,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[15].Split('♥');
-                button20.Text = s1[1] + s1[2];
+                button20.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -232,7 +232,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[16].Split('♥');
-                button19.Text = s1[1] + s1[2];
+                button19.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -243,7 +243,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[17].Split('♥');
-                button18.Text = s1[1] + s1[2];
+                button18.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -254,7 +254,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[18].Split('♥');
-                button17.Text = s1[1] + s1[2];
+                button17.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -265,7 +265,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[19].Split('♥');
-                button16.Text = s1[1] + s1[2];
+                button16.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -276,7 +276,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[20].Split('♥');
-                button25.Text = s1[1] + s1[2];
+                button25.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -287,7 +287,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[21].Split('♥');
-                button24.Text = s1[1] + s1[2];
+                button24.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -298,7 +298,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[22].Split('♥');
-                button23.Text = s1[1] + s1[2];
+                button23.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -309,7 +309,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[23].Split('♥');
-                button22.Text = s1[1] + s1[2];
+                button22.Text = s1[1] + " " + s1[2];
             }
             else
             {
@@ -320,7 +320,7 @@ namespace BiDataHack_2020
             {
                 val++;
                 String[] s1 = buttonsToLoad[24].Split('♥');
-                button21.Text = s1[1] + s1[2];
+                button21.Text = s1[1] + " " + s1[2];
             } else
             {
                 button21.Visible = false;
@@ -733,13 +733,140 @@ namespace BiDataHack_2020
             }
         }
 
+        private void button26_Click(object sender, EventArgs e)
+        {
+            String totalNames = "";
+            if(btn1 == true)
+            {
+                totalNames = totalNames + button1.Text + "♥";
+            }
+            if (btn2 == true)
+            {
+                totalNames = totalNames + button2.Text + "♥";
+            }
+            if (btn3 == true)
+            {
+                totalNames = totalNames + button3.Text + "♥";
+            }
+            if (btn4 == true)
+            {
+                totalNames = totalNames + button4.Text + "♥";
+            }
+            if (btn5 == true)
+            {
+                totalNames = totalNames + button5.Text + "♥";
+            }
+            if (btn6 == true)
+            {
+                totalNames = totalNames + button6.Text + "♥";
+            }
+            if (btn7 == true)
+            {
+                totalNames = totalNames + button7.Text + "♥";
+            }
+            if (btn8 == true)
+            {
+                totalNames = totalNames + button8.Text + "♥";
+            }
+            if (btn9 == true)
+            {
+                totalNames = totalNames + button9.Text + "♥";
+            }
+            if (btn10 == true)
+            {
+                totalNames = totalNames + button10.Text + "♥";
+            }
+            if (btn11 == true)
+            {
+                totalNames = totalNames + button11.Text + "♥";
+            }
+            if (btn12 == true)
+            {
+                totalNames = totalNames + button12.Text + "♥";
+            }
+            if (btn13 == true)
+            {
+                totalNames = totalNames + button13.Text + "♥";
+            }
+            if (btn14 == true)
+            {
+                totalNames = totalNames + button14.Text + "♥";
+            }
+            if (btn15 == true)
+            {
+                totalNames = totalNames + button15.Text + "♥";
+            }
+            if (btn16 == true)
+            {
+                totalNames = totalNames + button16.Text + "♥";
+            }
+            if (btn17 == true)
+            {
+                totalNames = totalNames + button17.Text + "♥";
+            }
+            if (btn18 == true)
+            {
+                totalNames = totalNames + button18.Text + "♥";
+            }
+            if (btn19 == true)
+            {
+                totalNames = totalNames + button19.Text + "♥";
+            }
+            if (btn20 == true)
+            {
+                totalNames = totalNames + button20.Text + "♥";
+            }
+            if (btn21 == true)
+            {
+                totalNames = totalNames + button21.Text + "♥";
+            }
+            if (btn22 == true)
+            {
+                totalNames = totalNames + button22.Text + "♥";
+            }
+            if (btn23 == true)
+            {
+                totalNames = totalNames + button23.Text + "♥";
+            }
+            if (btn24 == true)
+            {
+                totalNames = totalNames + button24.Text + "♥";
+            }
+            if (btn25 == true)
+            {
+                totalNames = totalNames + button25.Text + "♥";
+            }
+            totalNames = totalNames.Substring(0, totalNames.Length - 1);
+            System.IO.Directory.CreateDirectory("Votes");
+            System.IO.Directory.CreateDirectory("Results");
+            String localLocation = Directory.GetCurrentDirectory() + "//Results";
+            String[] names = totalNames.Split('♥');
+            for (int i = 0; i < names.Length; i++)
+            {
+                if(File.Exists(localLocation + names[i] + ".db"))
+                {
+                    string readText = File.ReadAllText(localLocation + names[i] + ".db");
+                    int counter = int.Parse(readText);
+                    counter++;
+                    File.WriteAllText(localLocation + names[i] + ".db", mb.Encrypt(counter.ToString()));
+                }
+                else
+                {
+                    string createText = "1";
+                    File.WriteAllText(localLocation + names[i] + ".db", mb.Encrypt(createText));
+                }
+                VotingFormMainUI vfmUI = new VotingFormMainUI();
+                vfmUI.Show();
+                this.Hide();
 
+            }
 
-        
+        }
 
+        private void button2_Click_1(object sender, EventArgs e)
+        {
 
-
-
+        }
     }
 
 
