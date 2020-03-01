@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btn_BackRemoveSystem = new System.Windows.Forms.Button();
             this.btn_RemoveSystem = new System.Windows.Forms.Button();
+            this.mainList = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -45,18 +45,10 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Remove System";
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(190, 135);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 1;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(35, 135);
+            this.label2.Location = new System.Drawing.Point(133, 107);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(122, 13);
             this.label2.TabIndex = 2;
@@ -82,6 +74,15 @@
             this.btn_RemoveSystem.TabIndex = 4;
             this.btn_RemoveSystem.Text = "Remove";
             this.btn_RemoveSystem.UseVisualStyleBackColor = false;
+            this.btn_RemoveSystem.Click += new System.EventHandler(this.btn_RemoveSystem_Click);
+            // 
+            // mainList
+            // 
+            this.mainList.FormattingEnabled = true;
+            this.mainList.Location = new System.Drawing.Point(101, 138);
+            this.mainList.Name = "mainList";
+            this.mainList.Size = new System.Drawing.Size(199, 160);
+            this.mainList.TabIndex = 5;
             // 
             // Remove_VotingSystem
             // 
@@ -89,10 +90,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(403, 450);
+            this.Controls.Add(this.mainList);
             this.Controls.Add(this.btn_RemoveSystem);
             this.Controls.Add(this.btn_BackRemoveSystem);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.Name = "Remove_VotingSystem";
             this.Text = "Remove_VotingSystem";
@@ -104,9 +105,9 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_BackRemoveSystem;
         private System.Windows.Forms.Button btn_RemoveSystem;
+        private System.Windows.Forms.ListBox mainList;
     }
 }
