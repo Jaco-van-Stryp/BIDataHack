@@ -25,14 +25,14 @@ namespace BiDataHack_2020
 
         public void loadButtons()
         {
-            String localLocation = Directory.GetCurrentDirectory() + "//VotingSettings";
-            string[] files = Directory.GetDirectories(localLocation);
+            String localLocation = Directory.GetCurrentDirectory() + "\\Registrations";
+            string[] files = Directory.GetFiles(localLocation);
             publicText = File.ReadAllText(Directory.GetCurrentDirectory() + "\\temp.db");
             List<string> buttonsToLoad = new List<string>();
 
             for (int i = 0; i < files.Length; i++)
             {
-                string readText = System.IO.File.ReadAllText(files[i] + "//reg.db");
+                string readText = System.IO.File.ReadAllText(files[i]);
 
                 String[] data = mb.Decrypt(readText).Split('♥');
                 String[] pbt = mb.Decrypt(publicText).Split('♥');
@@ -53,7 +53,7 @@ namespace BiDataHack_2020
             int totalToLoad = buttonsToLoad.Count;
             int val = 0;
 
-            if(val <= totalToLoad)
+            if(val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[0].Split('♥');
@@ -63,7 +63,7 @@ namespace BiDataHack_2020
                 button1.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[1].Split('♥');
@@ -74,7 +74,7 @@ namespace BiDataHack_2020
                 button2.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[2].Split('♥');
@@ -85,7 +85,7 @@ namespace BiDataHack_2020
                 button3.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[3].Split('♥');
@@ -96,7 +96,7 @@ namespace BiDataHack_2020
                 button4.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[4].Split('♥');
@@ -107,7 +107,7 @@ namespace BiDataHack_2020
                 button5.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[5].Split('♥');
@@ -118,7 +118,7 @@ namespace BiDataHack_2020
                 button10.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[6].Split('♥');
@@ -129,7 +129,7 @@ namespace BiDataHack_2020
                 button9.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[7].Split('♥');
@@ -140,7 +140,7 @@ namespace BiDataHack_2020
                 button8.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[8].Split('♥');
@@ -151,7 +151,7 @@ namespace BiDataHack_2020
                 button7.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[9].Split('♥');
@@ -162,7 +162,7 @@ namespace BiDataHack_2020
                 button6.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[10].Split('♥');
@@ -173,7 +173,7 @@ namespace BiDataHack_2020
                 button15.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[11].Split('♥');
@@ -184,7 +184,7 @@ namespace BiDataHack_2020
                 button14.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[12].Split('♥');
@@ -195,7 +195,7 @@ namespace BiDataHack_2020
                 button13.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[13].Split('♥');
@@ -206,7 +206,7 @@ namespace BiDataHack_2020
                 button12.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[14].Split('♥');
@@ -217,7 +217,7 @@ namespace BiDataHack_2020
                 button11.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[15].Split('♥');
@@ -228,7 +228,7 @@ namespace BiDataHack_2020
                 button20.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[16].Split('♥');
@@ -239,7 +239,7 @@ namespace BiDataHack_2020
                 button19.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[17].Split('♥');
@@ -250,7 +250,7 @@ namespace BiDataHack_2020
                 button18.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[18].Split('♥');
@@ -261,7 +261,7 @@ namespace BiDataHack_2020
                 button17.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[19].Split('♥');
@@ -272,7 +272,7 @@ namespace BiDataHack_2020
                 button16.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[20].Split('♥');
@@ -283,7 +283,7 @@ namespace BiDataHack_2020
                 button25.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[21].Split('♥');
@@ -294,7 +294,7 @@ namespace BiDataHack_2020
                 button24.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[22].Split('♥');
@@ -305,7 +305,7 @@ namespace BiDataHack_2020
                 button23.Visible = false;
             }
 
-            if (val <= totalToLoad)
+            if (val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[23].Split('♥');
@@ -316,7 +316,7 @@ namespace BiDataHack_2020
                 button22.Visible = false;
             }
 
-              if(val <= totalToLoad)
+              if(val < totalToLoad)
             {
                 val++;
                 String[] s1 = buttonsToLoad[24].Split('♥');
