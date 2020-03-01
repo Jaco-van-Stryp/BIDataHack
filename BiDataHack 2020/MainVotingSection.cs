@@ -735,7 +735,7 @@ namespace BiDataHack_2020
 
         private void button26_Click(object sender, EventArgs e)
         {
-            String totalNames = "";
+            String totalNames = ""; 
             if(btn1 == true)
             {
                 totalNames = totalNames + button1.Text + "♥";
@@ -843,17 +843,17 @@ namespace BiDataHack_2020
             String[] names = totalNames.Split('♥');
             for (int i = 0; i < names.Length; i++)
             {
-                if(File.Exists(localLocation + names[i] + ".db"))
+                if(File.Exists(localLocation + "//" + names[i] + ".db"))
                 {
-                    string readText = File.ReadAllText(localLocation + names[i] + ".db");
+                    string readText = File.ReadAllText(localLocation + "//" + names[i] + ".db");
                     int counter = int.Parse(readText);
                     counter++;
-                    File.WriteAllText(localLocation + names[i] + ".db", mb.Encrypt(counter.ToString()));
+                    File.WriteAllText(localLocation + "//" + names[i] + ".db", mb.Encrypt(counter.ToString()));
                 }
                 else
                 {
                     string createText = "1";
-                    File.WriteAllText(localLocation + names[i] + ".db", mb.Encrypt(createText));
+                    File.WriteAllText(localLocation + "//" + names[i] + ".db", mb.Encrypt(createText));
                 }
                 VotingFormMainUI vfmUI = new VotingFormMainUI();
                 vfmUI.Show();
