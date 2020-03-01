@@ -15,6 +15,13 @@ namespace BiDataHack_2020
         public Remove_VotingSystem()
         {
             InitializeComponent();
+            String localLocation = Directory.GetCurrentDirectory() + "//VotingSettings";
+
+            string[] files = Directory.GetDirectories(localLocation);
+            foreach (string file in files)
+            {
+                mainList.Items.Add(Path.GetFileName(file).ToString().Trim());
+            }
         }
 
         private void btn_BackRemoveSystem_Click(object sender, EventArgs e)
@@ -27,8 +34,17 @@ namespace BiDataHack_2020
         private void btn_RemoveSystem_Click(object sender, EventArgs e)
         {
             String val = mainList.SelectedItem.ToString();
-            String localLocation = Directory.GetCurrentDirectory() + "//VotingSettings//" + val;
-            Directory.Delete(localLocation);
+            String localLocations = Directory.GetCurrentDirectory() + "//VotingSettings//" + val;
+
+            try
+            {
+                Directory.Delete(localLocations);
+            }
+            catch (Exception)
+            {
+            }
+
+
         }
     }
 }
